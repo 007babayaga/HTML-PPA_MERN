@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+height: 64px;
+width: 46px;
+}
+.earth-logo{
+    height: 30px;
+    width: 30px;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 10px 30px;
+    align-items: center;
+}
+.Home-exp{
+    display: flex;
+    align-self: center;
+    gap: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: larger;
+ margin: 0px 20px 0px 20px;
+}
+
+.earth-part{
+    display: flex;
+    align-self: center;
+    gap: 30px;
+}
+p{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.second-header{
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    border: 1px solid; /* Define border width */
+    border-image: linear-gradient(to top rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0)) 1;
+    height: 80px;
+    width: 70vw;
+    margin: auto;
+    border-radius: 100px;
+    padding: 1rem 1rem;
+}
+.column{
+    flex-grow: 1;
+    padding: 0 1rem;
+    border-right: 1px solid brown;
+}

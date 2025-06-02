@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List and tables</title>
+</head>
+<body>
+    <h1>Fruit list</h1>
+    <ul type="triangle">
+        <li>Apple </li>
+        <li>Banana</li>
+        <li>Guava </li>
+    </ul>
+    <h1>Vegetable list</h1>
+    <ol type="1" start="0">
+        <li>Spinach</li>
+        <li>cabbage</li>
+        <li>Tomato</li>
+    </ol>
+    <dl>
+        <dt>Fruits</dt>
+        <dd>Apple,Mango,Banana</dd>
+    </dl>
+    <dl>
+        <dt>Fruits</dt>
+        <dd>Apple,Mango,Banana</dd>
+    </dl>
+    <dl>
+        <dt>Vegetable</dt>
+        <dd>Spinach,Cabbage,Dhaniya</dd>
+    </dl>
+    <table border="3" >
+        <caption>Student info</caption>
+        <tr>
+            <th>Name</th>
+            <th>R.no</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>Rajat</td>
+            <td>1</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Rijwan</td>
+            <td>2</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Divya</td>
+            <td>3</td>
+            <td>C</td>
+        </tr>
+    </table>
+    <!-- <table border="3">
+        <caption>general checking</caption>
+        <tr>
+            <th>Name</th>
+            <th>Code</th>
+        </tr>
+        <tr>
+            <td>Rajat</td>
+            <td aria-rowspan="2"></td>
+        </tr>  
+        <tr>
+            <td>Rijwan</td>
+            <tr></tr>
+        </tr>          
+    </table> -->
+    <table border="3">
+        <tr>
+            <td>Roll.No</td>
+            <td>Name</td>
+            <td>City</td>
+            <td>State</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ajay</td>
+            <td>Jaipur</td>
+            <td>Rajasthan</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rahul</td>
+            <td rowspan="2">Munbai</td>
+            <td rowspan="2">Maharashtra</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Suresh</td>
+            <!-- <td>Munbai</td> -->
+            <!-- <td>Maharashtra</td> -->
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>yash</td>
+            <td colspan="2">delhi</td>
+            <!-- <td>delhi</td> -->
+        </tr>
+    </table>
+</body>
+</html>

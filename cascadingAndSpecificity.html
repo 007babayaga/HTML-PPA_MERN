@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading And specificity</title>
+    <style>
+       form{
+        background-color: aqua;
+       width: 300px;
+       margin: 20px auto;
+       }
+       input{
+        background-color: inherit;
+        outline: 0;padding: 2px;
+       }
+       h1{
+        margin-left: 300px;
+       }
+       
+    </style>
+</head>
+<body>
+<h1>A simple form</h1>
+   <form>
+    <label >name : </label><input type="text"><hr>
+    <label >email : </label><input type="email"><hr>
+    <label >phno : </label><input type="number"><hr>
+
+   </form>
+</body>
+</html>

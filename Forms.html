@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>This is a form for user informtaion</h1>
+    <!-- < <form action="/Thanks.html">
+        <label>User name</label>
+        <input type="text" placeholder="Enter your name" name="name" required >
+        <br>
+        <br>
+        <label>User Email </label>
+        <input type="email" placeholder=" Enter your Email" name="email" value="@gmail.com" required>
+        <br>
+        <br>
+        <label>Date of Birth</label>
+        <input type="date" placeholder="Enter your D-O-B" name="dob" required>
+        <br>
+        <br>
+        <label>Gender</label>
+        <br>
+    
+        <input type="radio"  name="gender" required id="male-id"> <label for="male-id">male</label>
+        <label >female</label>
+        <input type="radio"  name="gender" required>
+        <label>Stream</label>
+        <input type="radio"  name="Stream" required>
+        <label>cse</label>
+        <input type="radio"  name="Stream" required>
+        <label>en</label>
+        <input type="radio"  name="Stream" required>
+        <br>
+        <br>
+        <input type="file" placeholder="Upload your resume" >
+        <br>
+        <br>
+        <input type="submit" >
+        <br>
+        <br>
+        <input type="reset" >
+        <input type="week" placeholder="Enter the week" name="week">
+
+    </form> 
+    <form>
+        <label>Name</label> <input type="text" placeholder="Enter your name" name="UsrName" value="Singh" required>
+        <br>
+        <br>
+        <label>Email</label> <input type="email" placeholder="Enter your email"  value ="@gmail.com" required>
+        <br>
+        <br>
+        <label>Phone number</label> <input type="number" placeholder="Enter your Phone number" name="Usrnumber"  required>
+        <br>
+        <br>
+        <label>Gender</label>
+        <br>
+        <br>
+          <label>Male</label><input type="radio" name="gender" value="ml" readonly>
+          <label for="gr">Female  </label><input type="radio" name="gender" value="femle" id="gr">
+          <br>
+        <br>
+        <label>choose Stream</label>
+        <br>
+        <label>ECE</label><input type="radio" name="stream">
+        <br>
+        <label>EEE</label><input type="radio" name="stream">
+        <br>
+        <label>ME</label><input type="radio" name="stream">
+        <br>
+        <input type="submit">
+    </form> -->
+    <form>
+        <label for="citi">Enter your city</label>
+        <select id="citi" name="city">
+            <option value="hyd" selected >Hyderabad </option>
+            <option value="del" >delhi</option>
+            <option value="mum">mumbai</option>
+            <option value="che">chennai</option>
+            <option value="kol">kolkata</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">submit</button>
+
+    </form>
+    <br>
+    <br>
+    <br> 
+    <form>
+        <label>enter your feedback </label><br><textarea placeholder="enteryour feedback" rows="4" cols="20">
+            
+        </textarea>
+
+       <label for="dsa">DSA</label> <input type="checkbox" name="Dsa" id="dsa" checked disabled>
+       <label for="devv">DEV</label> <input type="checkbox" name="devv" id="devv" >
+       <label>Name</label> <input type="text" placeholder="Enter your name" name="UsrName" value="Singh" maxlength=8>
+       <br>
+       <br>
+       <label>Share your feedback</label>
+       <input type="range"  name="range" min="0" max="10" multiple="2">
+       <button type="submit">submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.image-set{
+    height: 90px;
+    width: 300px;
+}
+.parent{
+    display: flex;
+    padding: 0px 8vw 0px 8vw ;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.opt{
+    padding: 6px 20px 6px 20px;
+    height: 32px;
+    width: 150px;
+    align-self: center;
+    border-radius: 15px;
+    margin-right: 6px;
+    background-color: rgb(58, 56, 56);
+    color: white;
+}
+.opt:focus{
+    outline: 2pxx solid wheat;
+    outline-offset: 4px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    /* height: 32px; */
+    width: 75px;
+    border: none;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.last-content{
+    /* padding-top: 20px; */
+    display: flex;
+}
+nav{
+    background-color: white;
+    display: flex;
+    align-self: flex-end;
+}

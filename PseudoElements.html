@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        p::first-letter{
+            color: red;
+            font-size: 20px;
+        }
+        #one p:only-child::first-line{
+            background-color:yellow;
+        }
+        #one p:last-child::selection{
+            background-color: black;
+            color: white;
+        }
+        p:last-child::after{
+            content: "";
+            display: inline-block;
+            background-color: red;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <section id="one">
+        <div>
+            <p>hi</p>
+            <p>hello</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta esse quis iusto. 
+                Sed, fugiat deserunt, voluptatibus obcaecati quos qui laudantium esse nisi
+                , quo architecto reiciendis dolore repellat tenetur natus dolorum.</p>
+        </div>
+    </section>
+</body>
+</html>

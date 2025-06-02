@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-auto-rows: 300px;
+            gap: 2rem;
+        }
+        /* .para{
+            
+            height: 50px;
+           
+            background-color: red;
+            grid-column: 2/3;
+            padding: 24px;
+        } */
+        .im {
+            grid-column: 2/3;
+            /* height: 300px;
+            width: 100%; */
+        }
+        img{
+            height: 300px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="para">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, ratione?</p>
+        </div>
+        <div class="im">
+            <img src="NationalSpaceDayLogo.png">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+[href]{
+    background-color: rgb(39, 38, 36);
+    display: block;
+    margin-bottom: 10px;
+}
+[href="google.com"]{
+    background-color: blue;
+}
+[type]{
+    background-color: rgb(237, 208, 208);
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+[placeholder~="user"]{
+    background-color: aqua;
+}
+[placehoder|="Enter"]{
+    padding: 12px;
+}
